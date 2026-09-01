@@ -33,3 +33,4 @@ Clone the repository and install dependencies:
 git clone [https://github.com/sedakturk/stock-prediction.git](https://github.com/sedakturk/stock-prediction.git)
 cd stock-prediction
 pip install -r requirements.txt
+python predict.py
