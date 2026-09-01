@@ -1,3 +1,4 @@
+<img width="1496" height="815" alt="Figure_1" src="https://github.com/user-attachments/assets/a02ac093-9e57-4b42-b4c8-6cecfa9bcf67" />
 # Stock Forecasting Pipeline with Random Forest & Log-Returns
 
 An econometric machine learning pipeline designed to forecast short-term stock prices using stationary daily log-returns, autoregressive lagged features, and rolling volatility indicators.
@@ -25,12 +26,15 @@ Tree-based models (such as Random Forest) cannot extrapolate trends when trained
 | Test MAE | $42.09 | $9.10 |
 | Test RMSE | $47.70 | $11.47 |
 
+<img width="1496" height="815" alt="Figure_1" src="https://github.com/user-attachments/assets/16bdcf9-5bbd-4054-b13a-60e0e988ebe1" />
+
 ## Installation & Usage
 
-Clone the repository and install dependencies:
+Clone the repository:
+git clone [https://github.com/sedakturk/stock-price-forecasting-ml.git](https://github.com/sedakturk/stock-price-forecasting-ml.git)
 
-```bash
-git clone [https://github.com/sedakturk/stock-prediction.git](https://github.com/sedakturk/stock-prediction.git)
-cd stock-prediction
+Install dependencies:
 pip install -r requirements.txt
+
+Run the forecast:
 python predict.py
